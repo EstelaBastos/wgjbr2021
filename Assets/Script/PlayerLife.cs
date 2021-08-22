@@ -15,6 +15,7 @@ public class PlayerLife : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        Debug.Log("collision: " + collision.gameObject.name);
         if (collision.gameObject.CompareTag("Trap"))
         {
             Die();
