@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Cow
   - Trap
+  - Astronaut
+  - Map
+  - PopStart
   layers:
   - Default
   - TransparentFX

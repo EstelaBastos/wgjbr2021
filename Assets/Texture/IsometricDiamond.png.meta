@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 91a4427d299e80e4fa5cb7ea1fd12a6a
+guid: 3fb167e82108a7f4da0d7c35f4208646
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -35,9 +35,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
-    aniso: 1
-    mipBias: 0
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -137,15 +137,7 @@ TextureImporter:
         - {x: 128, y: -3}
         - {x: 128, y: 3}
         - {x: 6, y: 64}
-      physicsShape:
-      - - {x: -7, y: 64}
-        - {x: -128, y: 7}
-        - {x: -128, y: -4}
-        - {x: -18, y: -64}
-        - {x: 7, y: -64}
-        - {x: 128, y: -7}
-        - {x: 128, y: 4}
-        - {x: 18, y: 64}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 39f1fdb64fdbe4230800000000000000
