@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerControl : MonoBehaviour
 {
     private BoxCollider2D coll;
     private Rigidbody2D rb;
-
+    
+    
     [SerializeField] private LayerMask jumpableGround;
 
     // Start is called before the first frame update
@@ -19,6 +21,9 @@ public class PlayerControl : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+
+        
+
         float dirX = Input.GetAxisRaw("Horizontal");
 
         rb.velocity = new Vector2( dirX * 7f, rb.velocity.y);
