@@ -2548,7 +2548,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: bd16a556953e3d746af877e984a44bc2, type: 3}
-    m_FontSize: 19
+    m_FontSize: 16
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -2559,9 +2559,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.21
-  m_Text: "hisotria do et hausfhisdufh huffuhsaifh auifh uaihfu iahf uiashuf hasu
-    fhash fas\nf hsau fsah fusah f\nas hfuas hfuashfu sahuf hasu hfuash ufhasu fhash
-    fas\n fhsau fhsau hfuash as"
+  m_Text: "Etcetera \xE9 um ET que viaja para o planeta Terra em busca de novas aventuras!\r\nColete
+    o m\xE1ximo de vaquinhas para ganhar o m\xE1ximo de pontos poss\xEDveis! Obtenha
+    a feijoada, sushi, vodka para ganhar pontos extras. Pegue o mapa para completar
+    a fase! \r\n\nInstru\xE7\xF5es: Use as setas para esquerda e direita para movimentar
+    o personagem e a barra de espa\xE7o para pular.\r\n"
 --- !u!222 &912041078
 CanvasRenderer:
   m_ObjectHideFlags: 0
