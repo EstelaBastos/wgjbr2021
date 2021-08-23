@@ -9,6 +9,7 @@ TagManager:
   - Astronaut
   - Map
   - PopStart
+  - PlusPoint
   layers:
   - Default
   - TransparentFX

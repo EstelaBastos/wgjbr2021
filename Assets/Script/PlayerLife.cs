@@ -7,6 +7,7 @@ public class PlayerLife : MonoBehaviour
 {
 
     private Rigidbody2D rb;
+    [SerializeField] private AudioSource dethEffect;
     // Start is called before the first frame update
     private void Start()
     {
@@ -29,7 +30,7 @@ public class PlayerLife : MonoBehaviour
         rb.bodyType = RigidbodyType2D.Static;
     }
 
-    private void RestartLevel()
+    public void RestartLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }

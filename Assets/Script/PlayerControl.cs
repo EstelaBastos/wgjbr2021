@@ -10,12 +10,15 @@ public class PlayerControl : MonoBehaviour
     
     
     [SerializeField] private LayerMask jumpableGround;
+    [SerializeField] private AudioSource jumpEffect;
 
     // Start is called before the first frame update
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         coll = GetComponent<BoxCollider2D>();
+        
+
     }
 
     // Update is called once per frame
@@ -31,6 +34,7 @@ public class PlayerControl : MonoBehaviour
         if (Input.GetButtonDown("Jump") && isGrounded())
         {
             rb.velocity = new Vector2(rb.velocity.x, 14f);
+            jumpEffect.Play();
         }
 
         //TODO -  Stop moving upwards when hit a platform during a jump
